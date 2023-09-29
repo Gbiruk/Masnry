@@ -1,0 +1,47 @@
+.image-grid{
+    column-count: 5;
+}
+.image-item img{
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+.image-item:hover{
+    cursor: pointer;
+    border-radius: 5%;
+}
+.image-item img:hover{
+cursor: pointer;
+border-radius: 5%;
+}
+
+
+footer{
+    text-align: center;
+    background-color:violet ;
+    margin-bottom:0;
+}
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109, 109, 253);
+}
+ul{
+    display: flex;
+    padding-right: 50px;
+}
+ul li{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.image-item button{
+
+}
+.image-grid{
+    padding-top: 40px;
+}
